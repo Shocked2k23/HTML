@@ -16,18 +16,43 @@ aside{
     text-decoration: none;
     padding: 10px;
     float: left;
-    height: 250px;
+    height: 700px;
 }
 
 article {
     background-color: #F5EBE0;
     width: 660px;
     padding: 10px;
-    height: 250px;
+    height: 700px;
     float: left;
+    font-size: 20px;
 }
 
 article p{
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#hinta{
+    display: inline;
+    padding: 0;
+    padding-right: 70px;
+    text-align: center;
+    float: inline-end;
+    font-weight: bold;
+}
+
+#hinnasto{
+    padding-left: 400px;
+    text-align: center;
+}
+
+article li{
+    line-height: 30px;
+}
+
+article span{
     text-align: center;
 }
 

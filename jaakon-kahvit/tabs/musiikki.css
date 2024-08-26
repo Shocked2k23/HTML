@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 1000px;
+    margin: auto;
+    background-color: #EDEDE9;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: #D6CCC2;
+    text-align: center;
+    padding: 10px;
+}
+
+aside{
+    background-color: #E3D5CA;
+    width: 300px;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    height: 700px;
+}
+
+.search-container{
+    margin-top: 100px;
+    position: relative;
+}
+
+.search-container input{
+    width: 350px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(red, green, blue, 0.2);
+    transition: 0.4s ease-in-out;
+}
+
+.search-container input:focus{
+    width: 450px;
+}
+
+.search-container i{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.karaoke {
+    background-color: #F5EBE0;
+    width: 660px;
+    padding: 10px;
+    height: 700px;
+    float: left;
+    font-size: 20px;
+}
+
+.karaoke h2{
+    text-align: center;
+}
+
+/*Haku palkki (tehty youtuben avulla)*/
+
+footer {
+    background-color: #D6CCC2;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 270px;
+}
+
+aside ul {
+    list-style-type: none;
+    font-size: 150%;
+}
+
+aside ul li{
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: GREEN;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
