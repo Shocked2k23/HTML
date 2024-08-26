@@ -153,30 +153,30 @@ header {
 
 /* Kellutetaan id:left-col vasemmalle ja määritetään sen leveys suhteellisena */
 
-#left {
+.left {
   float: left;
   width: 48%;
 }
 
 /* määritetään left-col-id:n sisällä olevan points-luokan li-elementti */
 
-#left ul li {
+.left ul li {
   margin-bottom: 30px;
 }
 
 /* määritetään left-col-id:n sisällä olevan points-luokan img-elementti */
-#left ul img {
+.left ul img {
   float: left;
   margin-right: 10px;
 }
 
 /* määritetään left-col-id:n sisällä olevan points-luokan h4-block */
-#left ul h4 {
+.left ul h4 {
   padding-top: 5px;
 }
 
 /* Kellutetaan right-col-id oikealle ja määritetään sen leveys suhteellisena */
-#right {
+.right {
   float: right;
   width: 48%;
 }
