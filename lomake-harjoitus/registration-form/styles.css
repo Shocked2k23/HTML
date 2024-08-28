@@ -1,0 +1,21 @@
+table{
+    border: 2px solid #000;
+}
+
+th{
+    color: #fff;
+    background-color: #1d1d1d;
+    font-size: 20px;
+}
+
+td{
+    width: 150px;
+    border: 2px solid #000;
+    background-color: aqua;
+}
+
+button{
+    width: 133px;
+}
+
+/* Oli kiva älytä että tän saa tehtyy helposti table elementillä -_- onneks en tehny jo jotai tuhatta divii ja muuta kivaa :)*/

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+/* Nekro One font, Beskervville SC font. */
+
+*{
+    font-family: "Nekro One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
