@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/fonts/fonts.css">
+    <title>Peli turnaus</title>
+</head>
+<body>
+
+    <main>
+
+        <div class="container">
+
+            <h1>Ilmottautumis lomake</h1>
+
+            <div class="info">
+
+                <ul>
+                    <li>Pelaajat jaetaan tasaisiin tiimeihin. Tiimejä on yhteensä 16.</li>
+                    <li>Liiga tarkistetaan järjestäjän toimesta</li>
+                    <li>Voittavat tiimit etenevät bracketissa. Häviävät tiimit menevät losers brackettiin.</li>
+                    <li>Palkinnot menevät seuraavasti. 1st: 50% potista, 2nd: 30% potista, 3rd: 20% potista.</li>
+                    <li>Turnauksen sisäänpääsy maksu on 30€.</li>
+                    <li>Lisätietoa turnauksesta saat ilmottautumisen jälkeen</li>
+                    <li>Muistathan lukea <a href="#">Säännöt</a></li>
+                    <li>Täytä kaikki kentät</li>
+                </ul>
+
+            </div>
+
+            <h2>Osallistujan tiedot</h2>
+
+            <div class="form">
+
+                <label for="sukunimi">Sukunimi: </label>
+                <input type="text" id="sukunimi" required>
+
+                <br>
+
+                <label for="etunimi">Etunimi: </label>
+                <input type="text" id="etunimi" required>
+
+                <br>
+
+                <label for="pelinimi">Pelinimi: </label>
+                <input type="text" id="pelinimi" required>
+
+                <br>
+
+                <label for="puhelin">Puhelin numero: </label>
+                <input type="text" id="puhelin">
+
+                <br>
+
+                <label for="email">Sähköposti: </label>
+                <input type="email" id="email" required>
+
+                <br>
+
+                <label>Rankki: </label>
+                <br>
+                <input type="radio" name="rank" id="rank1">   
+                <p>Diamond+</p>
+                <br>
+                <input type="radio" name="rank" id="rank2">
+                <p>Gold / Emerald</p>
+                <br>
+                <input type="radio" name="rank" id="rank3">
+                <p>Silver</p>
+
+                <br>
+
+                <label>Maksu: </label>
+                <br>
+                <input type="radio" name="maksu" id="mobilepay">   
+                <p>Mobilepay</p>
+                <br>
+                <input type="radio" name="maksu" id="korttimaksu">
+                <p>Kortti Maksu</p>
+                <br>
+                <input type="radio" name="maksu" id="käteinen">
+                <p>Käteinen</p>
+
+                <br>
+
+                <label for="säännöt">Säännöt: </label>
+                <input type="checkbox" id="säännöt">
+                <p>Olen lukenut ja ymmärrän säännöt</p>
+
+                <br>
+
+                <input type="submit" value="Lähetä lomake">
+
+            </div>
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
