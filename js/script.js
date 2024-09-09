@@ -15,7 +15,8 @@ console.log("Lukujen summa on: " + summa);
 var luku1, luku2, summa;
 luku1 = 10
 luku2 = 20
-console.log(luku1 - luku2);
+summa = luku1 - luku2
+console.log(summa);
 
 /*tehtävä 4*/
 
@@ -23,7 +24,7 @@ var luku1, luku2, summa;
 luku1 = 15
 luku2 = 20
 summa = luku1 * luku2
-console.log(luku1 * luku2);
+console.log(summa);
 
 /*tehtävä 5*/
 
@@ -31,7 +32,7 @@ var luku1, luku2, summa;
 luku1 = 10
 luku2 = 20
 summa = luku1 / luku2
-console.log(luku1 / luku2);
+console.log(summa);
 
 /*tehtävä 6*/
 
