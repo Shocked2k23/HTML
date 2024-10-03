@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
 <body>
     
@@ -272,9 +273,7 @@
                         <option value="Tunisia">Tunisia</option>
                         <option value="Turkey">Turkey</option>
                         <option value="Turkmenistan">Turkmenistan</option>
-                        <option value="Turks and Caicos Islands">
-                          Turks and Caicos Islands
-                        </option>
+                        <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
                         <option value="Tuvalu">Tuvalu</option>
                         <option value="Uganda">Uganda</option>
                         <option value="Ukraine">Ukraine</option>
@@ -286,9 +285,7 @@
                         <option value="Vanuatu">Vanuatu</option>
                         <option value="Venezuela">Venezuela</option>
                         <option value="Viet Nam">Viet Nam</option>
-                        <option value="Virgin Islands, British">
-                          Virgin Islands, British
-                        </option>
+                        <option value="Virgin Islands, British">Virgin Islands, British</option>
                         <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
                         <option value="Wallis and Futuna">Wallis and Futuna</option>
                         <option value="Western Sahara">Western Sahara</option>
@@ -304,17 +301,17 @@
                 
                 <section>
                     <label for="number">Phone</label>
-                    <input type="text" id="number" placeholder="Enter Phone Number" required>
+                    <input type="text" id="number" placeholder="Enter Phone Number" id="phone" required>
                 </section>
 
                 <section>
                     <label for="password1">Password</label>
-                    <input type="password" id="password1">
+                    <input type="password" id="password1" name="passwords">
                 </section>
 
                 <section>
                     <label for="password2">Confirm Password</label>
-                    <input type="password" id="password2">
+                    <input type="password" id="password2" name="passwords">
                 </section>
 
                 <section>
@@ -326,9 +323,9 @@
 
             <footer>
 
-                <button class="submit">Submit</button>
+                <button class="submit" id="submit" onclick="">Submit</button>
 
-                <button class="cancel">Cancel</button>
+                <button class="cancel" id="cancel">Cancel</button>
 
             </footer>
 
