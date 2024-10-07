@@ -1,75 +1,96 @@
-body{
-    width: 1000px;
-    margin: auto;
-    background-color: #EDEDE9;
+body {
+  width: 1000px;
+  margin: auto;
+  background-color: #edede9;
+  font-size: 10px;
 }
 
-header{
-    background-color: #D6CCC2;
-    text-align: center;
-    padding: 10px;
+header {
+  background-color: #d6ccc2;
+  text-align: center;
+  padding: 10px;
 }
 
-aside{
-    background-color: #E3D5CA;
-    width: 300px;
-    text-decoration: none;
-    padding: 10px;
-    float: left;
-    height: 700px;
+aside {
+  background-color: #e3d5ca;
+  width: 300px;
+  text-decoration: none;
+  padding: 10px;
+  float: left;
+  height: 700px;
 }
 
 article {
-    background-color: #F5EBE0;
-    width: 660px;
-    padding: 10px;
-    height: 700px;
-    float: left;
-    font-size: 20px;
+  background-color: #f5ebe0;
+  width: 660px;
+  padding: 10px;
+  height: 700px;
+  float: left;
+  font-size: 20px;
 }
 
 #drop-area {
-    width: 400px;
-    height: 200px;
-    margin: 20px auto;
-    text-align: center;
-    line-height: 200px;
-    border: 2px dashed #ccc;
-    cursor: pointer;
+  width: 400px;
+  height: 200px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 200px;
+  border: 2px dashed #ccc;
+  cursor: pointer;
 }
-  
+
 #preview-container {
-    text-align: center;
+  text-align: center;
 }
 
 #drop-area.drag-over {
-    background-color: #eee;
-  }
-  
+  background-color: #eee;
+}
 
-article p{
-    text-align: center;
-    font-weight: bold;
-    justify-content: center;
+article p {
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
 }
 
 footer {
-    background-color: #D6CCC2;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 270px;
+  background-color: #d6ccc2;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 270px;
 }
 
 aside ul {
-    list-style-type: none;
-    font-size: 150%;
+  list-style-type: none;
+  font-size: 150%;
 }
 
-aside ul li{
-    padding-top: 20px;
+aside ul li {
+  padding-top: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: GREEN;
+a {
+  text-decoration: none;
+  color: GREEN;
+}
+
+.form input {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.form textarea {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.15rem;
+}
+
+.form button {
+  text-align: center;
+  border-radius: 16px;
+  margin: 2rem 15rem;
+  width: 100px;
+  height: 30px;
 }

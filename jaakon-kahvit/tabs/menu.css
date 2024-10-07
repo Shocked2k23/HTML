@@ -1,88 +1,88 @@
-body{
-    width: 1000px;
-    margin: auto;
-    background-color: #EDEDE9;
+body {
+  width: 1000px;
+  margin: auto;
+  background-color: #edede9;
 }
 
-header{
-    background-color: #D6CCC2;
-    text-align: center;
-    padding: 10px;
+header {
+  background-color: #d6ccc2;
+  text-align: center;
+  padding: 10px;
 }
 
-aside{
-    background-color: #E3D5CA;
-    width: 300px;
-    text-decoration: none;
-    padding: 10px;
-    float: left;
-    height: 700px;
+aside {
+  background-color: #e3d5ca;
+  width: 300px;
+  text-decoration: none;
+  padding: 10px;
+  float: left;
+  height: 700px;
 }
 
 article {
-    background-color: #F5EBE0;
-    width: 660px;
-    padding: 10px;
-    height: 700px;
-    float: left;
-    font-size: 20px;
+  background-color: #f5ebe0;
+  width: 660px;
+  padding: 10px;
+  height: 700px;
+  float: left;
+  font-size: 20px;
 }
 
-article p{
-    text-align: center;
-    font-weight: bold;
-    justify-content: center;
+article p {
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
 }
 
-#hinta{
-    display: inline;
-    padding: 0;
-    padding-right: 70px;
-    text-align: center;
-    float: inline-end;
-    font-weight: bold;
+#hinta {
+  display: inline;
+  padding: 0;
+  padding-right: 70px;
+  text-align: center;
+  float: inline-end;
+  font-weight: bold;
 }
 
-#hinnasto{
-    padding-left: 400px;
-    text-align: center;
+#hinnasto {
+  padding-left: 400px;
+  text-align: center;
 }
 
-article li{
-    line-height: 30px;
+article li {
+  line-height: 30px;
 }
 
-article span{
-    text-align: center;
+article span {
+  text-align: center;
 }
 
 footer {
-    background-color: #D6CCC2;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 270px;
+  background-color: #d6ccc2;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 270px;
 }
 
-address{
-    text-align: center;
-    margin-top: 20px;
-    margin-right: 300px;
+address {
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 300px;
 }
 
-img{
-    float: right;
+img {
+  float: right;
 }
 
 aside ul {
-    list-style-type: none;
-    font-size: 150%;
+  list-style-type: none;
+  font-size: 150%;
 }
 
-aside ul li{
-    padding-top: 20px;
+aside ul li {
+  padding-top: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: GREEN;
+a {
+  text-decoration: none;
+  color: GREEN;
 }
